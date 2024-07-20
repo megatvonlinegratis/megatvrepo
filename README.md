@@ -1,2 +1,2 @@
-# kodimegatv
-Addon Mega TV Para Kodi
+# Mega TV Repo
+Mega TV Repo
