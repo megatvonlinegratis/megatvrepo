@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.megaporno" 
+       name="[B][COLOR blue]Mega[/COLOR] [COLOR deeppink]Pornô[/COLOR][/B]" 
+	   version="1.0.0+matrix.1" 
+	   provider-name="[B][COLOR blue]Mega[/COLOR] [COLOR deeppink]Pornô[/COLOR][/B]"> 
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>  
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>   
+<extension point="xbmc.addon.metadata">
+	<summary lang="pt">[B][COLOR gold]Conteúdos[/COLOR][/B] [B][COLOR white]Adultos[/COLOR][/B] [B][COLOR gold]+18[/COLOR]</summary>
+    <description lang="pt">[B][COLOR lime]●[/COLOR] [COLOR blue]Mega[/COLOR] [COLOR deeppink]Pornô[/COLOR] [COLOR white]é Apenas um Agregador e Assim Como o Google.com, Apenas Agrega e Organiza os Links Externos. Não Somos Responsáveis Pelos Arquivos Aqui Encontrados.[/COLOR][/B] [B][COLOR firebrick]●[/COLOR] [COLOR white]Proibido a Venda dos Add-ons [COLOR blue]Mega[/COLOR] [COLOR deeppink]Pornô[/COLOR][/B] [B][COLOR firebrick]●[/COLOR] [COLOR white]Não Vendemos IPTV, Caso Ache Sites ou Mesmo Apps é Falso.[/COLOR][/B]</description>
+    <disclaimer lang="pt">[B][COLOR white]OBRIGADO POR ACESSAR NOSSO[/COLOR] [COLOR gold]ADD-ON[/COLOR][/B]</disclaimer>
+	<platform>all</platform>
+	<assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+    </assets>
+    <news>v1.0.0.matrix.1
+    - Addon Mega Pornô
+    </news>
+</extension>
+</addon>
