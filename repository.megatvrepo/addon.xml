@@ -5,21 +5,21 @@
 	   provider-name="[B][COLOR blue]Mega[/COLOR] [COLOR white]TV[/COLOR][/B]">
     <extension point="xbmc.addon.repository" name="[B][COLOR blue]Mega[/COLOR] [COLOR white]TV[/COLOR][/B]">
       <dir>
-      <info compressed="false">https://raw.githubusercontent.com/megatvonline/megatvrepo/master/addons.xml</info>
-      <checksum>https://raw.githubusercontent.com/megatvonline/megatvrepo/master/addons.xml.md5</checksum>
-      <datadir zip="true">https://raw.githubusercontent.com/megatvonline/megatvrepo/master</datadir>
+      <info compressed="false">https://raw.githubusercontent.com/megatvonlinegratis/megatvrepo/master/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/megatvonlinegratis/megatvrepo/master/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/megatvonlinegratis/megatvrepo/master</datadir>
 	  <hashes>false</hashes>
       </dir>
 	  <dir minversion="19.0.0">
-      <info compressed="true">https://raw.githubusercontent.com/megatvonline/megatvrepo/master/matrix/addons.xml</info>
-      <checksum>https://raw.githubusercontent.com/megatvonline/megatvrepo/master/matrix/addons.xml.md5</checksum>
-      <datadir zip="true">https://raw.githubusercontent.com/megatvonline/megatvrepo/master/matrix</datadir>
+      <info compressed="true">https://raw.githubusercontent.com/megatvonlinegratis/megatvrepo/master/matrix/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/megatvonlinegratis/megatvrepo/master/matrix/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/megatvonlinegratis/megatvrepo/master/matrix</datadir>
       <hashes>false</hashes>
       </dir>
 	  <dir minversion="17.0.0" maxversion="18.9.0">
-      <info compressed="true">https://raw.githubusercontent.com/megatvonline/megatvrepo/master/leia/addons.xml</info>
-      <checksum>https://raw.githubusercontent.com/megatvonline/megatvrepo/master/leia/addons.xml.md5</checksum>
-      <datadir zip="true">https://raw.githubusercontent.com/megatvonline/megatvrepo/master/leia</datadir>
+      <info compressed="true">https://raw.githubusercontent.com/megatvonlinegratis/megatvrepo/master/leia/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/megatvonlinegratis/megatvrepo/master/leia/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/megatvonlinegratis/megatvrepo/master/leia</datadir>
       <hashes>false</hashes>
       </dir>
     </extension>
