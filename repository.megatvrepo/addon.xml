@@ -31,9 +31,6 @@
         <assets>
         <icon>icon.png</icon>
         <fanart>fanart.jpg</fanart>
-	<news>v1.0
-        - Repository Mega TV
-        </news>	
-        </assets>
+	</assets>
         </extension>
         </addon>
