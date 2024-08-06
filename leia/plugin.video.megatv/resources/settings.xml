@@ -48,7 +48,7 @@
 <category label="Configurações Gerais">
 <setting label="[B][COLOR gold]Configurações Gerais[/COLOR][/B] : " type="lsep"/>
 <setting label="[B]Exibir Favoritos[/B]" id="favoritos" type="bool" default="false" />
-<setting label="[B]Limpar Favoritos[/B]" type="action" action="RunScript(plugin.video.megatv, limparFavoritos)"/>
+<setting label="[B]Limpar Favoritos[/B]" type="action" action="RunScript(plugin.video.megatv), limparFavoritos)"/>
 <setting label="[B]Não Mostrar Itens no Nome do Canal[/B]" id="donotshowbychannels" type="bool" default="false"/>
 </category>
 </settings>
