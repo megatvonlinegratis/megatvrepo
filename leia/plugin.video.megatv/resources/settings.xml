@@ -49,7 +49,7 @@
 <setting label="[B][COLOR gold]Configurações Gerais[/COLOR][/B] : " type="lsep"/>
 <setting label="[B]Exibir Favoritos[/B]" id="favoritos" type="bool" default="false" />
 <setting label="[B]Limpar Favoritos[/B]" type="action" action="RunScript(plugin.video.megatv), limparFavoritos)"/>
-<setting label="[B]Pedir Itens da Lista de Reprodução Para Escolher a Caixa de Diálogo[/B]" id="ask_playlist_items" type="bool" default="true" />  
 <setting label="[B]Não Mostrar Itens no Nome do Canal[/B]" id="donotshowbychannels" type="bool" default="false"/>
+<setting label="Pedir itens da lista de reprodução para escolher a caixa de diálogo" id="ask_playlist_items" type="bool" default="true" />  
 </category>
 </settings>
