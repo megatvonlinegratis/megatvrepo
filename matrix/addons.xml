@@ -2,8 +2,8 @@
 <addons>
 <addon id="plugin.video.megatv" 
        name="[B][COLOR blue]Mega[/COLOR] [COLOR white]TV[/COLOR][/B]" 
-	   version="3.0.0+matrix" 
-	   provider-name="[B][COLOR blue]Mega[/COLOR] [COLOR white]TV[/COLOR][/B]">
+       version="3.0.0+matrix" 
+       provider-name="[B][COLOR blue]Mega[/COLOR] [COLOR white]TV[/COLOR][/B]">
 <requires>
 		<import addon="script.module.six" />
 		<import addon="script.module.kodi-six" />
