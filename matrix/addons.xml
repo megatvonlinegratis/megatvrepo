@@ -30,7 +30,7 @@
 	<icon>icon.png</icon>
     <fanart>fanart.jpg</fanart>
     </assets>
-	<news>v3.0.0+matrix
+    <news>v3.0.0+matrix
     - Addon Mega TV
     </news>
 </extension>
