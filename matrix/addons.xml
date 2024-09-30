@@ -1,1 +1,75 @@
-d
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+
+<addon id="plugin.video.f4mTester" version="4.0.7" name="f4mTester" provider-name="Joel e Tiago">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.video.F4mProxy" version="4.0.7"/>		
+        <import addon="inputstream.ffmpegdirect"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>  
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">f4mTester</summary>
+        <description></description>
+        <platform>all</platform>
+        <assets>
+			<icon>icon.png</icon>
+		</assets>
+    </extension>
+</addon>
+  
+<addon id="script.video.F4mProxy" 
+	     name="F4mProxy" 
+	     version="4.0.7" 
+	     provider-name="Joel e Tiago">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />
+		<import addon="script.module.requests" />
+        <import addon="inputstream.ffmpegdirect" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+    
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Proxy for f4m</summary>
+		<description lang="en">Use this addon to play F4m v1 and v2 streams</description>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
+</addon>
+  
+<addon id="plugin.video.megaporno" 
+       name="[B][COLOR blue]Mega[/COLOR] [COLOR deeppink]Pornô[/COLOR][/B]" 
+	     version="1.0.0+matrix.1" 
+	     provider-name="[B][COLOR blue]Mega[/COLOR] [COLOR deeppink]Pornô[/COLOR][/B]"> 
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>  
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>   
+<extension point="xbmc.addon.metadata">
+	 <summary lang="pt">[COLOR gold]Conteúdos[/COLOR][/B] [B][COLOR white]Adultos[/COLOR][/B] [B][COLOR gold]+18[/COLOR]</summary>
+    <description lang="pt">[B][COLOR lime]●[/COLOR] [COLOR blue]Mega[/COLOR] [COLOR deeppink]Pornô[/COLOR] [COLOR white]é Apenas um Agregador e Assim Como o Google.com, Apenas Agrega e Organiza os Links Externos. Não Somos Responsáveis Pelos Arquivos Aqui Encontrados.[/COLOR][/B] [B][COLOR firebrick]●[/COLOR] [COLOR white]Proibido a Venda dos Add-ons [COLOR blue]Mega[/COLOR] [COLOR deeppink]Pornô[/COLOR][/B] [B][COLOR firebrick]●[/COLOR] [COLOR white]Não Vendemos IPTV, Caso Ache Sites ou Mesmo Apps é Falso.[/COLOR][/B]</description>
+    <disclaimer lang="pt">[B][COLOR white]OBRIGADO POR ACESSAR NOSSO[/COLOR] [COLOR gold]ADD-ON[/COLOR][/B]</disclaimer>
+	<platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+	   </assets>
+	   <news>v1.0.0.matrix.1
+     - Addon Mega Pornô
+	   </news>
+</extension>
+</addon>  
+
+</addons>
